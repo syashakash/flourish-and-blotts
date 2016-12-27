@@ -1,0 +1,189 @@
+html,body {
+    margin: 0;
+    background-image: url('../img/indexbg.jpg');
+    border-image-slice: 0;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover;
+    overflow : hidden;
+    padding:0;
+}
+
+.upper {
+    height : 90%;
+    margin:0;
+    padding:0;
+    margin-bottom: -10px;
+    border: 0;
+}
+#topbar ul{
+   list-style-type : none;
+    margin : 0;
+    padding : 0;
+/*    position : fixed;*/
+    overflow : hidden;
+    background-color : rgba(204, 204, 203, 0);
+    top : 0;
+    width : 100%;
+    font-family: 'Cardo', serif;
+    font-size : 1.25em;
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    color: azure;
+    z-index: 0;
+}
+
+#topbar a {
+    display : block;
+    color : #FFF;
+    padding : 5px 6px;
+    text-align : center;
+    text-decoration : none;
+}
+#topbar li {
+    float: right;
+    border-right-style: inset;
+    border-right-width: thin;
+    border-left-style: inset;
+    border-left-width: thin;
+}
+#topbar li a:hover {
+    border: none;
+    position: static;
+    background-color: rgba(204, 204, 203, 0.1);
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+#topbar li a: active {
+    background-color: rgba(210, 214, 223, 0.9);
+    border: dashed;
+}
+
+#topbar .explorer {
+    cursor: pointer;
+}
+.dropdown:hover {
+    border :thin solid;
+    border-bottom: none;
+}
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width : 20px;
+     text-align: right;
+}
+
+.dropdown-content a {
+    display: block;
+    border :none;
+/*    border-bottom: thin solid;*/
+    text-align: right;
+}
+.dropdown:hover .dropdown-content {
+    display : block;
+    border : thin solid;
+    border-top: none;
+}
+#topbar .dropdown-content a:hover {
+   border-bottom: thin solid;
+}
+#center-circle {
+    top: 0;
+    border-radius: 100%;
+    margin-left: 45%;
+    height : 55px;
+    width: 55px;
+    background-color: rgba(210, 210, 203, 0.2);
+    font-family: 'Tangerine', cursive;
+    font-size: 18px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    text-align: center;
+    border-style: ridge;
+    background: radial-gradient(rgba(210, 210, 203, 0.2), black);
+    border-collapse: separate;
+}
+#main_content {
+    margin-top: 13.5%;
+    margin-bottom: 0;
+    display: inline-block;
+    padding: 0 0.2%;
+    text-decoration: none;
+    background-color: transparent;
+    border-collapse: separate;
+    width: 100%;
+
+}
+#main_content h1 {
+    font-size: 13vw;
+    color: #ffeadb;
+    font-family: 'Tangerine', cursive;
+    text-shadow:  3px 4px 2px #8c572f;
+    margin-bottom: 0;
+    bottom: 0;
+    line-height: 0.5em;
+    margin-left: 100px;
+}
+
+#main_content p {
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #dbb5a2;
+    text-shadow:  3px 4px 0x;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    margin-left: 150px;
+}
+footer {
+    width :100%;
+    bottom : 0;
+    padding: 0.2%;
+    margin: 0;
+/*    background-color: rgba(27, 30, 61, 0.1);*/
+    position : fixed;
+}
+
+footer p {
+    font-family: 'Poiret One', cursive;
+    color: aliceblue;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.footer-link {
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    display: inline;
+}
+
+footer li {
+    display: inline;
+}
+
+#about-us {
+    text-align: center;
+    margin: 0.3vmax 0.2vmax;
+    text-align: center;
+    box-shadow: azure 2vmax;
+    background-color : rgba(10, 10, 10, 0.9);
+    top : 20%;
+    position : fixed;
+    left: 20%;
+    right : 20%;
+    padding : 2vmax 4vmax;
+    font-size: 2vmax;
+    font-family : 'Dancing Script', cursive;
+    color : #f2ccb5;
+    display: block;
+}
+
+.founders {
+        font-family: 'Yellowtail', cursive;
+
+}
