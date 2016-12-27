@@ -1,2 +1,2 @@
 # flourish-and-blotts
-A website I am developing as I learn web development/
+A website I am working on as I learn web development/
